@@ -24,9 +24,10 @@ params:
     iconHeight: 35
   # 首页信息配置
   homeInfoParams:
-    Title: "JaxBytes"
+    Title: "Hey Guys🎓"
     Content: >
-      Protect What You Love.
+      Welecome my blog!  
+      这里主要记录了我的一些日常，博客部署在cloudflare，所以挂上梯子可能使你的访问更流畅。
 
   # 设置网站头像和首页头像
   profileMode:
