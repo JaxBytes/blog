@@ -19,8 +19,4 @@ tags:
 draft: false
 ---
 
-Cut out summary from your post content here.
-
-<!--more-->
-
-The remaining content of your post.
+这篇文章只是一个测试。

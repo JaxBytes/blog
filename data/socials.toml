@@ -1,0 +1,3 @@
+socials = [
+  { href = "https://github.com/JaxBytes", target="_blank", icon = "logo-github", title = "GitHub" },
+]
