@@ -1,0 +1,80 @@
+baseURL = "https://404.ci"           # 站点基础 URL
+defaultContentLanguage = "zh"            # 默认内容语言
+languageCode = "zh-Hans"                 # 站点语言代码
+title = "JaxBytes's Blog"               # 网站标题
+theme = "dream"                          # 使用的主题
+
+#enableGitInfo = true                      # 启用 Git 信息（如最后修改时间）
+#enableRobotsTXT = true                    # 生成 robots.txt 文件
+
+hasCJKLanguage = true                     # 启用 CJK（中日韩）语言支持
+
+# [services]                               # 第三方服务配置
+#   [services.disqus]                      # Disqus 评论系统
+#     shortname = "g1eny0ung"
+#   [services.googleAnalytics]              # Google Analytics 配置
+#     ID = "G-K6V0YY3HWS"
+
+[markup]                                   # Markdown 渲染相关配置
+	[markup.goldmark.parser]
+		wrapStandAloneImageWithinParagraph = false   # 图片是否包裹在段落内
+	[markup.goldmark.parser.attribute]
+		block = true                         # 启用块级属性
+	[markup.goldmark.renderer]
+		unsafe = true                        # 允许渲染 HTML
+	[markup.goldmark.extensions.passthrough]
+		enable = true                        # 启用直通扩展
+		[markup.goldmark.extensions.passthrough.delimiters]
+			block = [['\\[', '\\]'], ['$$', '$$']] # 块级直通分隔符
+			inline = [['\\(', '\\)']]             # 行内直通分隔符
+	[markup.highlight]
+		noClasses = false                    # 语法高亮是否使用 class
+
+# [taxonomies]                             # 分类法配置
+#   category = "categories"
+#   tag = "tags"
+#   series = "series"
+
+[params]                                   # 主题参数配置
+zenMode = false                            # 启用禅模式
+lightTheme = "emerald"                    # 浅色主题
+darkTheme = "forest"                      # 深色主题
+
+author = "JaxBytes"                      # 作者
+description = "The life record of g1eny0ung is presented here." # 描述
+avatar = "jax.jpg"         # 头像
+headerTitle = "JaxBytes's Blog"           # 页眉标题
+motto = "与其感慨路难行，不如马上出发。"      # 座右铭
+# footerBottomText = ""                    # 页脚文本
+rss = true                                 # 启用 RSS
+
+email = "JaxBytes@gmail.com"             # 邮箱
+siteStartYear = 2025                       # 站点起始年份
+favicon = '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🪬</text></svg>"></link>' # 站点图标
+# Syntax highlighting
+customSyntaxHighlighting = false            # 启用自定义语法高亮
+# options
+stickyNav = true                           # 固定导航栏
+# reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"] # 导航项排序
+collapseNavItems = ["posts", "categories", "tags"] # 折叠导航项
+# noDefaultSummaryCover = true             # 不显示默认摘要封面
+showTableOfContents = true                 # 显示目录
+showSummaryCoverInPost = true              # 文章内显示摘要封面
+imageZoomableInPost = true                 # 文章图片可缩放
+showPrevNextPost = true                    # 显示前后文章
+# reorderShares = ["x", "facebook", "whatsapp"] # 分享按钮排序
+
+
+[params.navItems]                          # 自定义导航项
+# series = { href = "/series", icon = "planet", title = "Series" }
+github = { href = "https://github.com/JaxBytes", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[params.advanced]                          # 高级设置
+customCSS = ["css/custom.css"]             # 自定义 CSS
+# customJS = []                            # 自定义 JS
+
+
+[params.experimental]                      # 实验性功能
+jsDate = true                              # 启用 JS 日期格式化
+jsDateFormat = "yyyy年MM月dd日"             # JS 日期格式
+# jsDateFormat = "yyyy年MM月dd日，cccc"      # 另一种 JS 日期格式
