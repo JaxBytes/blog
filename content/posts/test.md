@@ -5,7 +5,7 @@ lastmod: 2025-10-06T00:30:37+08:00
 author: JaxBytes
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: https://www.loliapi.com/acg/pc/
+cover: https://image.404.ci/docs/1759731374245.jpg
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg
