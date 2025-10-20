@@ -50,7 +50,7 @@ rss = true                                 # 启用 RSS
 
 email = "JaxBytes@gmail.com"             # 邮箱
 siteStartYear = 2025                       # 站点起始年份
-favicon = '<link rel="icon" href="<svg width="200" height="200" viewBox="0 0 200 200"><defs><clipPath id="roundedCorners"><rect width="200" height="200" rx="20" ry="20"/></clipPath></defs><image href="https://image.404.ci/jax.jpg" width="200" height="200" clip-path="url(#roundedCorners)"/></svg>"></link>' # 站点图标
+favicon = '<link rel="icon" href="data:image/svg+xml;utf8,%3Csvg%20width%3D%22200%22%20height%3D%22200%22%20viewBox%3D%220%200%20200%20200%22%3E%3Cdefs%3E%3CclipPath%20id%3D%22roundedCorners%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20rx%3D%2220%22%20ry%3D%2220%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cimage%20href%3D%22https%3A%2F%2Fimage.404.ci%2Fjax.jpg%22%20width%3D%22200%22%20height%3D%22200%22%20clip-path%3D%22url(%23roundedCorners)%22%2F%3E%3C%2Fsvg%3E' # 站点图标
 # Syntax highlighting
 customSyntaxHighlighting = false            # 启用自定义语法高亮
 # options
