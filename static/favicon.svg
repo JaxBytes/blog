@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
-  <defs>
-    <clipPath id="roundedCorners">
-      <rect width="200" height="200" rx="20" ry="20"/>
-    </clipPath>
-  </defs>
-  <!-- 使用站点内图片作为内容，避免跨域或外部加载问题 -->
-  <image href="/jax.jpg" width="200" height="200" clip-path="url(#roundedCorners)"/>
-</svg>

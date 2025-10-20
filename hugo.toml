@@ -50,7 +50,7 @@ rss = true                                 # 启用 RSS
 
 email = "JaxBytes@gmail.com"             # 邮箱
 siteStartYear = 2025                       # 站点起始年份
-favicon = '<link rel="icon" type="image/svg+xml" href="/favicon.svg">' # 站点图标
+favicon = '<link rel="icon" type="image/svg+xml" href="/favicon.jpg">' # 站点图标
 # Syntax highlighting
 customSyntaxHighlighting = false            # 启用自定义语法高亮
 # options
