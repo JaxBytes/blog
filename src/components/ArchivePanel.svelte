@@ -134,9 +134,9 @@ onMount(async () => {
                      group-hover:translate-x-1 transition-all group-hover:text-[var(--primary)]
                      text-75 pr-8 whitespace-nowrap overflow-ellipsis overflow-hidden"
                         >
-                        {post.data.pinned &&
-                                        <Icon class="inline-block text-[1rem] text-[var(--primary)] mr-1 align-middle translate-y-[-1px]" name="material-symbols:push-pin" />
-                        }
+                            {#if post.data.pinned}
+                                <Icon class="inline-block text-[1rem] text-[var(--primary)] mr-1 align-middle translate-y-[-1px]" name="material-symbols:push-pin" />
+                            {/if}
                             {post.data.title}
                         </div>
 
