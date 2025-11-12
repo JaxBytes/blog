@@ -1,5 +1,5 @@
 ---
-title: Pinned Post Test
+title: 置顶文章测试
 published: 2024-07-01
 description: 'This is a test post to demonstrate the pinned feature.'
 image: ''
@@ -10,12 +10,14 @@ lang: ''
 pinned: true
 ---
 
-# Pinned Post Test
+# 置顶文章测试
 
-This is a test post to demonstrate the pinned feature. This post should appear at the top of the blog regardless of its publication date.
+这是一篇测试文章，用于演示置顶功能。无论发布日期如何，这篇文章都应显示在博客顶部。
 
-## How the Pinned Feature Works
+## 置顶功能的工作原理
 
-1. Add `pinned: true` to the frontmatter of a post
-2. The post will be displayed at the top of the blog
-3. Multiple pinned posts will be sorted by their publication date (newest first)
+1. 在文章的 frontmatter 中添加 `pinned: true`
+
+2. 该文章将显示在博客顶部
+
+3. 多篇置顶文章将按发布日期排序（最新在前）
